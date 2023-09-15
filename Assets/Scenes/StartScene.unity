@@ -1301,7 +1301,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 868611170}
         m_TargetAssemblyTypeName: ButtonOnClick, Assembly-CSharp
-        m_MethodName: ReplayLv1
+        m_MethodName: Ranking
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3052,6 +3052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd1e161022a9c7b43b0d29df9b848acf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerNameInput: {fileID: 0}
 --- !u!114 &868611171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5961,12 +5962,13 @@ MonoBehaviour:
   outlineDistance: {x: 0, y: 0}
   moveInterval: 7
   positions: []
-  currentPositionIndex: 
-  tutorialPositon: 
+  t: 
+  tutorial1Positon: 
+  tutorial2Positon: 
   lev1Position: 
   lev2Position: 
-  lev3Position: 
   lev4Position: 
+  tutorialDialogNum: 0
 --- !u!114 &1774918567
 MonoBehaviour:
   m_ObjectHideFlags: 0
