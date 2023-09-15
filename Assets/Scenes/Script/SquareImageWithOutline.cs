@@ -19,13 +19,6 @@ public class SquareImageWithOutline : MonoBehaviour
     public Vector3[] positions;
     public static int currentPosition;
 
-<<<<<<< HEAD
-    public List<int> currentPositionIndex;
-    public List<int> t;
-    public List<int> lev1Position;
-    public List<int> lev2Position;
-    public List<int> lev3Position;
-=======
     private List<int> currentPositionIndex;
     public List<int> t;
     public List<int> tutorial1Positon;
@@ -34,7 +27,6 @@ public class SquareImageWithOutline : MonoBehaviour
     public List<int> lev2Position;
     private List<int> lev3Position;
     public List<int> lev4Position;
->>>>>>> 976c5cd2bddd5e94f76c3f21ef1f768d49a04821
 
     public int tutorialDialogNum;
 
@@ -56,14 +48,6 @@ public class SquareImageWithOutline : MonoBehaviour
         // '99' means end of the sitmluation
         currentPositionIndex = new List<int>() {0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 99};
         // currentPositionIndex = new List<int>() {4, 0, 4, 1, 4, 1, 4, 1, 4, 2, 4, 3, 4, 0, 4, 3, 4, 1, 4, 2, 4, 0, 4, 3, 4};
-<<<<<<< HEAD
-        lev1Position = new List<int>() {0, 1, 3, 99}; //1, 2, 2, 3, 0, 1, 3, 0, 1, 0, 1, 2, 3, 0, 1, 2, 2, 3, 3, 0, 1, 2,
-        lev2Position = new List<int>() {1, 2, 3, 4, 2, 3, 4, 1, 2, 3, 1, 2, 1, 2, 3, 4, 3, 4, 2, 3, 4, 1, 2, 3, 4, 99};
-        lev3Position = new List<int>() {1, 2, 3, 4, 2, 3, 4, 1, 2, 3, 1, 2, 1, 2, 3, 4, 3, 4, 2, 3, 4, 1, 2, 3, 4, 99};
-        lev2Position = new List<int>() {1, 2, 3, 0, 2, 3, 0, 1, 2, 3, 1, 2, 1, 2, 3, 0, 3, 0, 2, 3, 0, 1, 2, 3, 0, 99};
-        //lev3Position = new List<int>() {1, 2, 3, 4, 2, 3, 4, 1, 2, 3, 1, 2, 1, 2, 3, 4, 3, 4, 2, 3, 4, 1, 2, 3, 4, 99};
-        lev3Position = new List<int>() {3, 1, 2, 0, 3, 1, 2, 0, 3, 1, 2, 0, 3, 1, 2, 0, 3, 1, 2, 0, 3, 1, 2, 0, 99};
-=======
         tutorial1Positon = new List<int>() {1, 1, 99};
         tutorial2Positon = new List<int>() {1, 3, 2, 99};
         lev1Position = new List<int>() {0, 1, 3, 99}; //1, 2, 2, 3, 0, 1, 3, 0, 1, 0, 1, 2, 3, 0, 1, 2, 2, 3, 3, 0, 1, 2,
@@ -71,7 +55,6 @@ public class SquareImageWithOutline : MonoBehaviour
         //lev3Position = new List<int>() {1, 2, 3, 4, 2, 3, 4, 1, 2, 3, 1, 2, 1, 2, 3, 4, 3, 4, 2, 3, 4, 1, 2, 3, 4, 99};
         lev3Position = new List<int>() {3, 1, 2, 0, 3, 1, 2, 0, 3, 1, 2, 0, 3, 1, 2, 0, 3, 1, 2, 0, 3, 1, 2, 0, 99};
         lev4Position = new List<int>() {1, 2, 3, 4, 2, 3, 4, 1, 2, 3, 1, 2, 1, 2, 3, 4, 3, 4, 2, 3, 4, 1, 2, 3, 4, 99};
->>>>>>> 976c5cd2bddd5e94f76c3f21ef1f768d49a04821
 
         positions = new Vector3[]
         {
@@ -99,15 +82,11 @@ public class SquareImageWithOutline : MonoBehaviour
         string sceneName = scene.name;
         UnityEngine.Debug.Log("Scene Name: " + sceneName);
 
-<<<<<<< HEAD
-        if (sceneName == "Lev1Scene")
-=======
         if (sceneName == "TutorialScene")
         {
             StartCoroutine(MoveOutlineTutorial());
         }
         else if (sceneName == "Lev1Scene")
->>>>>>> 976c5cd2bddd5e94f76c3f21ef1f768d49a04821
         {
             StartCoroutine(MoveOutlineLev1());
         }
@@ -155,8 +134,6 @@ public class SquareImageWithOutline : MonoBehaviour
         };
     }
 
-<<<<<<< HEAD
-=======
     private IEnumerator MoveOutlineTutorial()
     {
         if (tutorialDialogNum == 1) {t = tutorial1Positon;}
@@ -182,7 +159,6 @@ public class SquareImageWithOutline : MonoBehaviour
         };
     }
 
->>>>>>> 976c5cd2bddd5e94f76c3f21ef1f768d49a04821
     private IEnumerator MoveOutlineLev1()
     {
         for(int i=0; i < lev1Position.Count; i++)
@@ -246,8 +222,6 @@ public class SquareImageWithOutline : MonoBehaviour
         };
     }
 
-<<<<<<< HEAD
-=======
     private IEnumerator MoveOutlineLev4()
     {
         for(int i=0; i < lev4Position.Count; i++)
@@ -267,5 +241,4 @@ public class SquareImageWithOutline : MonoBehaviour
         };
     }
 
->>>>>>> 976c5cd2bddd5e94f76c3f21ef1f768d49a04821
 }
