@@ -4,9 +4,6 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-<<<<<<< HEAD
-  m_Scenes: []
-=======
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/StartScene.unity
@@ -29,5 +26,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lev3Scene.unity
     guid: 0f02f5e1e54a6c344b959dad63c9e872
->>>>>>> 976c5cd2bddd5e94f76c3f21ef1f768d49a04821
   m_configObjects: {}

@@ -351,20 +351,12 @@ MonoBehaviour:
   outlineDistance: {x: 0, y: 0}
   moveInterval: 6
   positions: []
-<<<<<<< HEAD
-  currentPositionIndex: 
-  t: 
-  lev1Position: 
-  lev2Position: 
-  lev3Position: 
-=======
   t: 
   tutorial1Positon: 
   tutorial2Positon: 
   lev1Position: 
   lev2Position: 
   lev4Position: 
->>>>>>> 976c5cd2bddd5e94f76c3f21ef1f768d49a04821
   tutorialDialogNum: 0
 --- !u!114 &46765125
 MonoBehaviour:
@@ -386,11 +378,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD
-  m_Sprite: {fileID: 21300000, guid: 59354acfe7e6abe4c90d2f09e300c77f, type: 3}
-=======
   m_Sprite: {fileID: 21300000, guid: 7a91b196f5d0d3a479ce42378214acb8, type: 3}
->>>>>>> 976c5cd2bddd5e94f76c3f21ef1f768d49a04821
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1410,11 +1398,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD
-  m_Sprite: {fileID: 21300000, guid: 863f2b349e80557469d2a3025a2b35ba, type: 3}
-=======
   m_Sprite: {fileID: 21300000, guid: 673eda3b6ddaaa4439b22901dce525f5, type: 3}
->>>>>>> 976c5cd2bddd5e94f76c3f21ef1f768d49a04821
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1445,13 +1429,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineColor: {r: 0, g: 0, b: 1, a: 1}
-<<<<<<< HEAD
-  outlineDistance: {x: 0, y: 0}
-  moveInterval: 6
-=======
   outlineDistance: {x: 5, y: 5}
   moveInterval: 3
->>>>>>> 976c5cd2bddd5e94f76c3f21ef1f768d49a04821
   positions: []
   t: 
   tutorial1Positon: 
