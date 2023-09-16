@@ -1179,7 +1179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd1e161022a9c7b43b0d29df9b848acf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerNameInput: {fileID: 0}
 --- !u!114 &584019003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2506,7 +2505,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 584019002}
         m_TargetAssemblyTypeName: ButtonOnClick, Assembly-CSharp
-        m_MethodName: ReplayLv1
+        m_MethodName: Level2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3552,7 +3551,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 584019002}
         m_TargetAssemblyTypeName: ButtonOnClick, Assembly-CSharp
-        m_MethodName: Tutorial
+        m_MethodName: Level1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4100,7 +4099,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 584019002}
         m_TargetAssemblyTypeName: ButtonOnClick, Assembly-CSharp
-        m_MethodName: ReplayLv1
+        m_MethodName: Level3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

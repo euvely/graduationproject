@@ -26,7 +26,7 @@ public class ButtonOnClick : MonoBehaviour
     public void Play()
     {
         //PlayerPrefs.SetString("PlayerName", playerNameInput.text);
-        SceneManager.LoadScene("Lev1Scene");
+        SceneManager.LoadScene("LevSelecScene");
     }
 
     public void Tutorial()
@@ -58,5 +58,4 @@ public class ButtonOnClick : MonoBehaviour
     {
         SceneManager.LoadScene("Lev3Scene");
     }
-
 }
